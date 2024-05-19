@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+::-webkit-scrollbar-button{
+    width: 0;
+    background: transparent;
+}
+header{
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 40px 40px;
+}
+header.logo{
+    max-width: 80px;
+}
+header.logo img{
+    max-width: 100px;
+}
+.banner{
+    min-height: 100vh;
+    padding: 40px 40px;
+    background: url(blad.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.content{
+    position: relative;
+    max-width: 500px;
+}
+.content.texting{
+    max-width: 400px;
+    width: 100px;
+    margin-top: 20px;
+}
+.content p{
+    color: aqua;
+    font-size: 11spx;
+   /* line-height: 1.75%;*/
+    font-weight: 100;
+    font-style:italic;
+    font-family: cursive;
+    text-align: justify;
+}
+.play{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+.play{
+    margin-right:10px ;
+    max-width: 50px;
+    font-size: 15px;
+}
+.info{
+    text-align: justify;
+
+}
+.About{
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    font-style: unset;
+    font-size: 40px;
+    margin-left: 80px;
+}
+.info2{
+    text-align: justify;
+    border-style:groove ;
+    width: 69pc;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 20px;
+    overflow:auto;
+    color: aqua;
+    background-color: black;
+}
+.h1{
+    color: mediumspringgreen;
+    font-style: italic;
+}
+.back{
+    background:url(backimg.jpg) ;
+    
+}
+.img{
+    border-style: groove;
+    padding: 10px;
+    margin: 10px;
+}
+.q{
+    border-style: groove;
+    margin-left: 60px;
+
+}
+.y{
+    border-style: groove;
+    margin-left: 60px;
+
+}
+.k{
+    border-style: groove;
+    margin-left: 60px;
+
+}
+
+.j{
+    border-style: groove;
+    margin-left: 60px;
+
+}
+.l{
+    border-style: groove;
+    width: 100px;
+    margin-left: 60px;
+}
+.w{
+    border-style: groove;
+    width: 100px;
+    margin-left: 60px;
+}

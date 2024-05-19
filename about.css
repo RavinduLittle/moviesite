@@ -1,0 +1,32 @@
+.body{
+    background: url(backimg.jpg);
+}
+
+#boder{
+    border-style: groove;
+    border-width: 1px;
+    padding: 20px;
+    margin-top: 80px;
+    color: aqua;
+    background-color: black;
+}
+
+.y{
+    width: 400px;
+    height: 400px;
+    border-style: groove;
+}
+
+.x{
+    width: 400px;
+    height: 400px;
+    border-style: groove;
+    margin-left: 15px;
+}
+
+.z{
+    width: 400px;
+    height: 400px;
+    border-style: groove;
+    margin-left: 20px;
+}
